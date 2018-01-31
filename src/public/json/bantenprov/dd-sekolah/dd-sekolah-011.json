@@ -1,0 +1,116 @@
+[
+  {
+    "xAxis": {
+      "type": "data-sekolah",
+      "region": "Provinsi",
+      "name": "Banten",
+      "yyyy": "2017 - 2018",
+      "semester": "Genap",
+      "tingkat": "TOTAL",
+      "group": "Jumlah",
+      "index": "banten-2017-2018-genap-total-jumlah",
+      "data": [
+        "Kab. Tangerang",
+        "Kab. Pandeglang",
+        "Kab. Lebak",
+        "Kab. Serang",
+        "Kota Tangerang",
+        "Kota tangerang Selatan",
+        "Kota Serang",
+        "Kota Cilegon",
+        "Total"
+      ]
+    },
+    "series": [
+      {
+        "data": [
+            1725,
+            1151,
+            1108,
+            1096,
+            905,
+            689,
+            414,
+            274,
+            7362
+        ]
+      }
+    ]
+  },
+  {
+    "xAxis": {
+      "type": "data-sekolah",
+      "region": "Provinsi",
+      "name": "Banten",
+      "yyyy": "2017 - 2018",
+      "semester": "Genap",
+      "tingkat": "TOTAL",
+      "group": "Laki-laki",
+      "index": "banten-2017-2018-genap-total-laki-laki",
+      "data": [
+        "Kab. Tangerang",
+        "Kab. Pandeglang",
+        "Kab. Lebak",
+        "Kab. Serang",
+        "Kota Tangerang",
+        "Kota tangerang Selatan",
+        "Kota Serang",
+        "Kota Cilegon",
+        "Total"
+      ]
+    },
+    "series": [
+      {
+        "data": [
+            877,
+            995,
+            997,
+            832,
+            394,
+            198,
+            271,
+            171,
+            4.735
+        ]
+      }
+    ]
+  },
+  {
+    "xAxis": {
+      "type": "data-sekolah",
+      "region": "Provinsi",
+      "name": "Banten",
+      "yyyy": "2017 - 2018",
+      "semester": "Genap",
+      "tingkat": "TOTAL",
+      "group": "Perempuan",
+      "index": "banten-2017-2018-genap-total-perempuan",
+      "data": [
+        "Kab. Tangerang",
+        "Kab. Pandeglang",
+        "Kab. Lebak",
+        "Kab. Serang",
+        "Kota Tangerang",
+        "Kota tangerang Selatan",
+        "Kota Serang",
+        "Kota Cilegon",
+        "Total"
+      ]
+    },
+    "series": [
+      {
+        "data": [
+            848,
+            156,
+            111,
+            264,
+            511,
+            491,
+            143,
+            103,
+            2627            
+        ]
+      }
+    ]
+  }
+]
