@@ -1,0 +1,1 @@
+This is demo view file for Bantenprov\DDSekolah package using blade template
