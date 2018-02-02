@@ -1,52 +1,234 @@
 [
   {
     "xAxis": {
-      "category": "SD/MI/Paket A",
-      "type": "category",
+      "type": "data-sekolah",
       "region": "Provinsi",
-      "name": "Banten"
+      "name": "Banten",
+      "yyyy": "2017 - 2018",
+      "semester": "Genap",
+      "tingkat": "SD",
+      "group": "Jumlah",
+      "index": "banten-2017-2018-genap-sd-jumlah"
     },
     "series": [
       {
         "data": [
-          {
-            "value": 120,
-            "name": "2011"
-          },
-          {
-            "value": 200,
-            "name": "2012"
-          },
-          {
-            "value": 150,
-            "name": "2013"
-          }
+          {"value":985,"name": "Kab. Tangerang"},
+          {"value":860,"name": "Kab. Pandeglang"},
+          {"value":789,"name": "Kab. Lebak"},
+          {"value":730,"name": "Kab. Serang"},
+          {"value":476,"name": "Kota Tangerang"},
+          {"value":317,"name": "Kota tangerang Selatan"},
+          {"value":252,"name": "Kota Serang"},
+          {"value":180,"name": "Kota Cilegon"}
         ]
       }
     ]
   },
   {
     "xAxis": {
-      "category": "SD/MI/Paket A",
-      "type": "category",
-      "region": "Negara",
-      "name": "Indonesia"
+      "type": "data-sekolah",
+      "region": "Provinsi",
+      "name": "Banten",
+      "yyyy": "2017 - 2018",
+      "semester": "Genap",
+      "tingkat": "SD",
+      "group": "Negeri",
+      "index": "banten-2017-2018-genap-sd-negeri"
     },
     "series": [
       {
         "data": [
-          {
-            "value": 320,
-            "name": "2011"
-          },
-          {
-            "value": 400,
-            "name": "2012"
-          },
-          {
-            "value": 550,
-            "name": "2013"
-          }
+          {"value":	758	,"name": "Kab. Tangerang"},
+          {"value":	850	,"name": "Kab. Pandeglang"},
+          {"value":	775	,"name": "Kab. Lebak"},
+          {"value":	705	,"name": "Kab. Serang"},
+          {"value":	338	,"name": "Kota Tangerang"},
+          {"value":	157	,"name": "Kota tangerang Selatan"},
+          {"value":	224	,"name": "Kota Serang"},
+          {"value":	150	,"name": "Kota Cilegon"}
+        ]
+      }
+    ]
+  },
+  {
+    "xAxis": {
+      "type": "data-sekolah",
+      "region": "Provinsi",
+      "name": "Banten",
+      "yyyy": "2017 - 2018",
+      "semester": "Genap",
+      "tingkat": "SD",
+      "group": "Swasta",
+      "index": "banten-2017-2018-genap-total-swasta"
+    },
+    "series": [
+      {
+        "data": [
+          {"value":	227	,"name": "Kab. Tangerang"},
+          {"value":	10	,"name": "Kab. Pandeglang"},
+          {"value":	14	,"name": "Kab. Lebak"},
+          {"value":	25	,"name": "Kab. Serang"},
+          {"value":	160	,"name": "Kota Tangerang"},
+          {"value":	28	,"name": "Kota tangerang Selatan"},
+          {"value":	30	,"name": "Kota Serang"},
+          {"value":	632	,"name": "Kota Cilegon"}
+        ]
+      }
+    ]
+  },
+  {
+    "xAxis": {
+      "type": "data-sekolah",
+      "region": "Provinsi",
+      "name": "Banten",
+      "yyyy": "2017 - 2018",
+      "semester": "Genap",
+      "tingkat": "SMP",
+      "group": "Jumlah",
+      "index": "banten-2017-2018-genap-smp-jumlah"
+    },
+    "series": [
+      {
+        "data": [
+          {"value":387,"name": "Kab. Tangerang"},
+          {"value":149,"name": "Kab. Pandeglang"},
+          {"value":202,"name": "Kab. Lebak"},
+          {"value":196,"name": "Kab. Serang"},
+          {"value":199,"name": "Kota Tangerang"},
+          {"value":190,"name": "Kota tangerang Selatan"},
+          {"value":78,"name": "Kota Serang"},
+          {"value":42,"name": "Kota Cilegon"}
+        ]
+      }
+    ]
+  },
+  {
+    "xAxis": {
+      "type": "data-sekolah",
+      "region": "Provinsi",
+      "name": "Banten",
+      "yyyy": "2017 - 2018",
+      "semester": "Genap",
+      "tingkat": "SMP",
+      "group": "Laki laki",
+      "index": "banten-2017-2018-genap-smp-negeri"
+    },
+    "series": [
+      {
+        "data": [
+          {"value":77,"name": "Kab. Tangerang"},
+          {"value":114,"name": "Kab. Pandeglang"},
+          {"value":170,"name": "Kab. Lebak"},
+          {"value":92,"name": "Kab. Serang"},
+          {"value":32,"name": "Kota Tangerang"},
+          {"value":22,"name": "Kota tangerang Selatan"},
+          {"value":29,"name": "Kota Serang"},
+          {"value":12,"name": "Kota Cilegon"}
+        ]
+      }
+    ]
+  },
+  {
+    "xAxis": {
+      "type": "data-sekolah",
+      "region": "Provinsi",
+      "name": "Banten",
+      "yyyy": "2017 - 2018",
+      "semester": "Genap",
+      "tingkat": "SMP",
+      "group": "Swasta",
+      "index": "banten-2017-2018-genap-sma-swasta"
+    },
+    "series": [
+      {
+        "data": [
+          {"value":310,"name": "Kab. Tangerang"},
+          {"value":35,"name": "Kab. Pandeglang"},
+          {"value":32,"name": "Kab. Lebak"},
+          {"value":104,"name": "Kab. Serang"},
+          {"value":167,"name": "Kota Tangerang"},
+          {"value":168,"name": "Kota tangerang Selatan"},
+          {"value":49,"name": "Kota Serang"},
+          {"value":30,"name": "Kota Cilegon"}
+        ]
+      }
+    ]
+  },
+  {
+    "xAxis": {
+      "type": "data-sekolah",
+      "region": "Provinsi",
+      "name": "Banten",
+      "yyyy": "2017 - 2018",
+      "semester": "Genap",
+      "tingkat": "SMA",
+      "group": "Jumlah",
+      "index": "banten-2017-2018-genap-sma-jumlah"
+    },
+    "series": [
+      {
+        "data": [
+          {"value":153,"name": "Kab. Tangerang"},
+          {"value":37,"name": "Kab. Pandeglang"},
+          {"value":53,"name": "Kab. Lebak"},
+          {"value":79,"name": "Kab. Serang"},
+          {"value":84,"name": "Kota Tangerang"},
+          {"value":85,"name": "Kota tangerang Selatan"},
+          {"value":31,"name": "Kota Serang"},
+          {"value":23,"name": "Kota Cilegon"}
+        ]
+      }
+    ]
+  },
+  {
+    "xAxis": {
+      "type": "data-sekolah",
+      "region": "Provinsi",
+      "name": "Banten",
+      "yyyy": "2017 - 2018",
+      "semester": "Genap",
+      "tingkat": "SMA",
+      "group": "Negeri",
+      "index": "banten-2017-2018-genap-sma-negeri"
+    },
+    "series": [
+      {
+        "data": [
+          {"value":29,"name": "Kab. Tangerang"},
+          {"value":18,"name": "Kab. Pandeglang"},
+          {"value":35,"name": "Kab. Lebak"},
+          {"value":26,"name": "Kab. Serang"},
+          {"value":15,"name": "Kota Tangerang"},
+          {"value":12,"name": "Kota tangerang Selatan"},
+          {"value":8,"name": "Kota Serang"},
+          {"value":5,"name": "Kota Cilegon"}
+        ]
+      }
+    ]
+  },
+  {
+    "xAxis": {
+      "type": "data-sekolah",
+      "region": "Provinsi",
+      "name": "Banten",
+      "yyyy": "2017 - 2018",
+      "semester": "Genap",
+      "tingkat": "SMA",
+      "group": "Swasta",
+      "index": "banten-2017-2018-genap-sma-swasta"
+    },
+    "series": [
+      {
+        "data": [
+          {"value":124,"name": "Kab. Tangerang"},
+          {"value":19,"name": "Kab. Pandeglang"},
+          {"value":18,"name": "Kab. Lebak"},
+          {"value":53,"name": "Kab. Serang"},
+          {"value":69,"name": "Kota Tangerang"},
+          {"value":73,"name": "Kota tangerang Selatan"},
+          {"value":23,"name": "Kota Serang"},
+          {"value":18,"name": "Kota Cilegon"}
         ]
       }
     ]

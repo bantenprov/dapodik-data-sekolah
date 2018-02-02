@@ -1,4 +1,5 @@
-[{
+[
+  {
     "xAxis": {
       "type": "data-sekolah",
       "region": "Provinsi",
@@ -13,38 +14,139 @@
       {
         "data": [
           {
-            "value": 1725,
-            "name": "Kab Tangerang"
+            "value": 7362,
+            "name": "Jumlah"
           },
           {
-            "value": 1151,
-            "name": "Kab Pandeglang"
+            "value": 4735,
+            "name": "Negeri"
           },
           {
-            "value": 1108,
-            "name": "Kab Lebak"
-          },
-          {
-            "value": 1096,
-            "name": "Kab Serang"
-          },
-          {
-            "value": 905,
-            "name": "Kota Tangerang"
-          },
-          {
-            "value": 689,
-            "name": "Kota Tangerang Selatan"
-          },
-          {
-            "value": 414,
-            "name": "Kota Serang"
-          },
-          {
-            "value": 274,
-            "name": "Kota Cilegon"
+            "value": 2627,
+            "name": "Swasta"
           }
         ]
       }
     ]
-  }]
+  },
+  {
+    "xAxis": {
+      "type": "data-sekolah",
+      "region": "Provinsi",
+      "name": "Banten",
+      "yyyy": "2017 - 2018",
+      "semester": "Genap",
+      "tingkat": "SD",
+      "group": "Jumlah",
+      "index": "banten-2017-2018-genap-sd-jumlah"
+    },
+    "series": [
+      {
+        "data": [
+          {
+            "value": 4589,
+            "name": "Jumlah"
+          },
+          {
+            "value": 3957,
+            "name": "Negeri"
+          },
+          {
+            "value": 632,
+            "name": "Swasta"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "xAxis": {
+      "type": "data-sekolah",
+      "region": "Provinsi",
+      "name": "Banten",
+      "yyyy": "2017 - 2018",
+      "semester": "Genap",
+      "tingkat": "SMP",
+      "group": "Jumlah",
+      "index": "banten-2017-2018-genap-smp-jumlah"
+    },
+    "series": [
+      {
+        "data": [
+          {
+            "value": 1443,
+            "name": "Jumlah"
+          },
+          {
+            "value": 548,
+            "name": "Negeri"
+          },
+          {
+            "value": 895,
+            "name": "Swasta"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "xAxis": {
+      "type": "data-sekolah",
+      "region": "Provinsi",
+      "name": "Banten",
+      "yyyy": "2017 - 2018",
+      "semester": "Genap",
+      "tingkat": "SMP",
+      "group": "Jumlah",
+      "index": "banten-2017-2018-genap-smp-jumlah"
+    },
+    "series": [
+      {
+        "data": [
+          {
+            "value": 545,
+            "name": "Jumlah"
+          },
+          {
+            "value": 148,
+            "name": "Negeri"
+          },
+          {
+            "value": 397,
+            "name": "Swasta"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "xAxis": {
+      "type": "data-sekolah",
+      "region": "Provinsi",
+      "name": "Banten",
+      "yyyy": "2017 - 2018",
+      "semester": "Genap",
+      "tingkat": "SMK",
+      "group": "Jumlah",
+      "index": "banten-2017-2018-genap-smk-jumlah"
+    },
+    "series": [
+      {
+        "data": [
+          {
+            "value": 692,
+            "name": "Jumlah"
+          },
+          {
+            "value": 75,
+            "name": "Negeri"
+          },
+          {
+            "value": 617,
+            "name": "Swasta"
+          }
+        ]
+      }
+    ]
+  }
+]
