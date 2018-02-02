@@ -1,54 +1,50 @@
-[
-  {
+[{
     "xAxis": {
-      "category": "SD/MI/Paket A",
-      "type": "category",
+      "type": "data-sekolah",
       "region": "Provinsi",
-      "name": "Banten"
+      "name": "Banten",
+      "yyyy": "2017 - 2018",
+      "semester": "Genap",
+      "tingkat": "Total",
+      "group": "Jumlah",
+      "index": "banten-2017-2018-genap-total-jumlah"
     },
     "series": [
       {
         "data": [
           {
-            "value": 120,
-            "name": "2011"
+            "value": 1725,
+            "name": "Kab Tangerang"
           },
           {
-            "value": 200,
-            "name": "2012"
+            "value": 1151,
+            "name": "Kab Pandeglang"
           },
           {
-            "value": 150,
-            "name": "2013"
+            "value": 1108,
+            "name": "Kab Lebak"
+          },
+          {
+            "value": 1096,
+            "name": "Kab Serang"
+          },
+          {
+            "value": 905,
+            "name": "Kota Tangerang"
+          },
+          {
+            "value": 689,
+            "name": "Kota Tangerang Selatan"
+          },
+          {
+            "value": 414,
+            "name": "Kota Serang"
+          },
+          {
+            "value": 274,
+            "name": "Kota Cilegon"
           }
         ]
       }
     ]
-  },
-  {
-    "xAxis": {
-      "category": "SD/MI/Paket A",
-      "type": "category",
-      "region": "Negara",
-      "name": "Indonesia"
-    },
-    "series": [
-      {
-        "data": [
-          {
-            "value": 320,
-            "name": "2011"
-          },
-          {
-            "value": 400,
-            "name": "2012"
-          },
-          {
-            "value": 550,
-            "name": "2013"
-          }
-        ]
-      }
-    ]
-  }
-]
+  }]

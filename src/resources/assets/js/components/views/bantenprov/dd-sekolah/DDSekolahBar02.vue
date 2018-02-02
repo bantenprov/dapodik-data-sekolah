@@ -30,14 +30,6 @@ export default {
         series: [{
           type: 'bar',
           data: [
-                {value:0, name:''},
-                {value:0, name:''},
-                {value:0, name:''},
-                {value:0, name:''},
-                {value:0, name:''},
-                {value:0, name:''},
-                {value:0, name:''},
-                {value:0, name:''}
           ],
           barWidth: 20,
           barGap: '-100%'
@@ -85,7 +77,7 @@ export default {
 
       this.bar.xAxis.data = Object.values(res[0].xAxis.data);
       this.bar.series[0].data = res[0].series[0].data;
-      this.bar.title.text = res[0].xAxis.region + ' ' + res[0].xAxis.name + ' ' + res[0].xAxis.category;
+      this.bar.title.text = res[0].xAxis.category + ' ' + res[0].xAxis.region + ' ' + res[0].xAxis.name;
 
       // interval
       let i = 0;
@@ -94,7 +86,7 @@ export default {
 
         this.bar.xAxis.data = Object.values(res[i].xAxis.data);
         this.bar.series[0].data = res[i].series[0].data;
-        this.bar.title.text = res[i].xAxis.region + ' ' + res[i].xAxis.name + ' ' + res[i].xAxis.category;
+        this.bar.title.text = res[0].xAxis.category + ' ' + res[i].xAxis.region + ' ' + res[i].xAxis.name;
 
         i++;
 

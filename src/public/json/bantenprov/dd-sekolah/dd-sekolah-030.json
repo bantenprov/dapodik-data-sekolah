@@ -1,126 +1,168 @@
 [
   {
     "xAxis": {
-      "category": "SD/MI/Paket A",
-      "region": "Provinsi",
-      "name": "Banten",
+      "category": "Total",
+      "region": "Kabupaten",
+      "name": "Tangerang",
       "data": [
-        "2014",
-        "2015",
-        "2016"
+        "Jumlah",
+        "Negeri",
+        "Swasta"
       ]
     },
     "series": [
       {
         "data": [
-          120,
-          200,
-          150
+          1725,
+          877,
+          848
         ]
       }
     ]
   },
   {
     "xAxis": {
-      "category": "SD/MI/Paket A",
-      "region": "Negara",
-      "name": "Indonesia",
+      "category": "Total",
+      "region": "Kabupaten",
+      "name": "Pandeglang",
       "data": [
-        "2014",
-        "2015",
-        "2016"
+        "Jumlah",
+        "Negeri",
+        "Swasta"
       ]
     },
     "series": [
       {
         "data": [
-          300,
-          450,
-          750
+          1151,
+          995,
+          156
         ]
       }
     ]
   },
   {
     "xAxis": {
-      "category": "SMP/MTS/Paket B",
-      "region": "Provinsi",
-      "name": "Banten",
+      "category": "Total",
+      "region": "Kabupaten",
+      "name": "Lebak",
       "data": [
-        "2014",
-        "2015",
-        "2016"
+        "Jumlah",
+        "Negeri",
+        "Swasta"
       ]
     },
     "series": [
       {
         "data": [
-          220,
-          270,
-          350
+          1108,
+          997,
+          111
         ]
       }
     ]
   },
   {
     "xAxis": {
-      "category": "SMP/MTS/Paket B",
-      "region": "Negara",
-      "name": "Indonesia",
+      "category": "Total",
+      "region": "Kabupaten",
+      "name": "Serang",
       "data": [
-        "2014",
-        "2015",
-        "2016"
+        "Jumlah",
+        "Negeri",
+        "Swasta"
       ]
     },
     "series": [
       {
         "data": [
-          380,
-          510,
-          690
+          1096,
+          832,
+          264
         ]
       }
     ]
   },
   {
     "xAxis": {
-      "category": "SMA/SMK/Paket C",
-      "region": "Provinsi",
-      "name": "Banten",
+      "category": "Total",
+      "region": "Kota",
+      "name": "Tangerang",
       "data": [
-        "2014",
-        "2015",
-        "2016"
+        "Jumlah",
+        "Negeri",
+        "Swasta"
       ]
     },
     "series": [
       {
         "data": [
-          120,
-          270,
-          450
+          905,
+          394,
+          511
         ]
       }
     ]
   },
   {
     "xAxis": {
-      "category": "SMA/SMK/Paket C",
-      "region": "Negara",
-      "name": "Indonesia",
+      "category": "Total",
+      "region": "Kota",
+      "name": "Tangerang Selatan",
       "data": [
-        "2014",
-        "2015",
-        "2016"
+        "Jumlah",
+        "Negeri",
+        "Swasta"
       ]
     },
     "series": [
       {
         "data": [
-          680,
-          710,
-          1990
+          689,
+          198,
+          491
+        ]
+      }
+    ]
+  },
+  {
+    "xAxis": {
+      "category": "Total",
+      "region": "Kota",
+      "name": "Serang",
+      "data": [
+        "Jumlah",
+        "Negeri",
+        "Swasta"
+      ]
+    },
+    "series": [
+      {
+        "data": [
+          414,
+          271,
+          143
+        ]
+      }
+    ]
+  },
+  {
+    "xAxis": {
+      "category": "Total",
+      "region": "Kota",
+      "name": "Cilegon",
+      "data": [
+        "Jumlah",
+        "Negeri",
+        "Swasta"
+      ]
+    },
+    "series": [
+      {
+        "data": [
+          274,
+          171,
+          103
         ]
       }
     ]
