@@ -1,147 +1,152 @@
-[{
-  "xAxis": {
-    "type": "data-sekolah",
-    "region": "Provinsi",
-    "name": "Banten",
-    "yyyy": "2017 - 2018",
-    "semester": "Genap",
-    "tingkat": "Total",
-    "group": "Jumlah",
-    "index": "banten-2017-2018-genap-total-jumlah"
+[
+  {
+    "xAxis": {
+      "type": "data-sekolah",
+      "region": "Provinsi",
+      "name": "Banten",
+      "yyyy": "2017 - 2018",
+      "semester": "Genap",
+      "tingkat": "Total",
+      "group": "Jumlah",
+      "index": "banten-2017-2018-genap-total-jumlah"
+    },
+    "series": [
+      {
+        "data": [
+          {
+            "value": 7362,
+            "name": "Jumlah"
+          },
+          {
+            "value": 4735,
+            "name": "Negeri"
+          },
+          {
+            "value": 2627,
+            "name": "Swasta"
+          }
+        ]
+      }
+    ]
   },
-  "series": [
-    {
-      "data": [
-        {
-          "value": 7362,
-          "name": "Jumlah"
-        },
-        {
-          "value": 4735,
-          "name": "Negeri"
-        },
-        {
-          "value": 2627,
-          "name": "Swasta"
-        }
-      ]
-    }
-  ]
- },{
-  "xAxis": {
-    "type": "data-sekolah",
-    "region": "Provinsi",
-    "name": "Banten",
-    "yyyy": "2017 - 2018",
-    "semester": "Genap",
-    "tingkat": "SD",
-    "group": "Jumlah",
-    "index": "banten-2017-2018-genap-sd-jumlah"
+  {
+    "xAxis": {
+      "type": "data-sekolah",
+      "region": "Provinsi",
+      "name": "Banten",
+      "yyyy": "2017 - 2018",
+      "semester": "Genap",
+      "tingkat": "SD",
+      "group": "Jumlah",
+      "index": "banten-2017-2018-genap-sd-jumlah"
+    },
+    "series": [
+      {
+        "data": [
+          {
+            "value": 4589,
+            "name": "Jumlah"
+          },
+          {
+            "value": 3957,
+            "name": "Negeri"
+          },
+          {
+            "value": 632,
+            "name": "Swasta"
+          }
+        ]
+      }
+    ]
   },
-  "series": [
-    {
-      "data": [
-        {
-          "value": 4589,
-          "name": "Jumlah"
-        },
-        {
-          "value": 3957,
-          "name": "Negeri"
-        },
-        {
-          "value": 632,
-          "name": "Swasta"
-        }
-      ]
-    }
-  ]
- },{
-  "xAxis": {
-    "type": "data-sekolah",
-    "region": "Provinsi",
-    "name": "Banten",
-    "yyyy": "2017 - 2018",
-    "semester": "Genap",
-    "tingkat": "SMP",
-    "group": "Jumlah",
-    "index": "banten-2017-2018-genap-smp-jumlah"
+  {
+    "xAxis": {
+      "type": "data-sekolah",
+      "region": "Provinsi",
+      "name": "Banten",
+      "yyyy": "2017 - 2018",
+      "semester": "Genap",
+      "tingkat": "SMP",
+      "group": "Jumlah",
+      "index": "banten-2017-2018-genap-smp-jumlah"
+    },
+    "series": [
+      {
+        "data": [
+          {
+            "value": 1443,
+            "name": "Jumlah"
+          },
+          {
+            "value": 548,
+            "name": "Negeri"
+          },
+          {
+            "value": 895,
+            "name": "Swasta"
+          }
+        ]
+      }
+    ]
   },
-  "series": [
-    {
-      "data": [
-        {
-          "value": 1443,
-          "name": "Jumlah"
-        },
-        {
-          "value": 548,
-          "name": "Negeri"
-        },
-        {
-          "value": 895,
-          "name": "Swasta"
-        }
-      ]
-    }
-  ]
- },{
-  "xAxis": {
-    "type": "data-sekolah",
-    "region": "Provinsi",
-    "name": "Banten",
-    "yyyy": "2017 - 2018",
-    "semester": "Genap",
-    "tingkat": "SMP",
-    "group": "Jumlah",
-    "index": "banten-2017-2018-genap-smp-jumlah"
+  {
+    "xAxis": {
+      "type": "data-sekolah",
+      "region": "Provinsi",
+      "name": "Banten",
+      "yyyy": "2017 - 2018",
+      "semester": "Genap",
+      "tingkat": "SMP",
+      "group": "Jumlah",
+      "index": "banten-2017-2018-genap-smp-jumlah"
+    },
+    "series": [
+      {
+        "data": [
+          {
+            "value": 545,
+            "name": "Jumlah"
+          },
+          {
+            "value": 148,
+            "name": "Negeri"
+          },
+          {
+            "value": 397,
+            "name": "Swasta"
+          }
+        ]
+      }
+    ]
   },
-  "series": [
-    {
-      "data": [
-        {
-          "value": 545,
-          "name": "Jumlah"
-        },
-        {
-          "value": 148,
-          "name": "Negeri"
-        },
-        {
-          "value": 397,
-          "name": "Swasta"
-        }
-      ]
-    }
-  ]
- },{
-  "xAxis": {
-    "type": "data-sekolah",
-    "region": "Provinsi",
-    "name": "Banten",
-    "yyyy": "2017 - 2018",
-    "semester": "Genap",
-    "tingkat": "SMK",
-    "group": "Jumlah",
-    "index": "banten-2017-2018-genap-smk-jumlah"
-  },
-  "series": [
-    {
-      "data": [
-        {
-          "value": 692,
-          "name": "Jumlah"
-        },
-        {
-          "value": 75,
-          "name": "Negeri"
-        },
-        {
-          "value": 617,
-          "name": "Swasta"
-        }
-      ]
-    }
-  ]
- }
+  {
+    "xAxis": {
+      "type": "data-sekolah",
+      "region": "Provinsi",
+      "name": "Banten",
+      "yyyy": "2017 - 2018",
+      "semester": "Genap",
+      "tingkat": "SMK",
+      "group": "Jumlah",
+      "index": "banten-2017-2018-genap-smk-jumlah"
+    },
+    "series": [
+      {
+        "data": [
+          {
+            "value": 692,
+            "name": "Jumlah"
+          },
+          {
+            "value": 75,
+            "name": "Negeri"
+          },
+          {
+            "value": 617,
+            "name": "Swasta"
+          }
+        ]
+      }
+    ]
+  }
 ]

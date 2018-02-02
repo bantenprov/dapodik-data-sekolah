@@ -20,8 +20,10 @@ export default {
           left: 'center',
           top: 20,
           textStyle: {
-            color: '#fff'
+            color: '#fff',
+            fontSize: 11
           }
+
         },
         tooltip: {
           show: true,
