@@ -59,7 +59,7 @@
       "tingkat": "Total",
       "kel": "Laki - laki",
       "group": "Jumlah",
-      "index": "banten-2017-2018-genap-laki-laki-jumlah"
+      "index": "banten-2017-2018-genap-total-laki-laki-jumlah"
     },
     "series": [
       {
@@ -110,41 +110,41 @@
       "tingkat": "Total",
       "kel": "Perempuan",
       "group": "Jumlah",
-      "index": "banten-2017-2018-genap-perempuan-jumlah"
+      "index": "banten-2017-2018-genap-total-perempuan-jumlah"
     },
     "series": [
       {
         "data": [
           {
-            "value": 848,
-            "name": "Kab. Tang,erang"
+            "value": 985,
+            "name": "Kab. Tangerang"
           },
           {
-            "value": 156,
+            "value": 860,
             "name": "Kab. Pandeglang"
           },
           {
-            "value": 111,
+            "value": 789,
             "name": "Kab. Lebak"
           },
           {
-            "value": 264,
+            "value": 730,
             "name": "Kab. Serang"
           },
           {
-            "value": 511,
+            "value": 476,
             "name": "Kota Tangerang"
           },
           {
-            "value": 491,
-            "name": "Kota Tangerang Selatan"
+            "value": 317,
+            "name": "Kota tangerang Selatan"
           },
           {
-            "value": 10,
+            "value": 252,
             "name": "Kota Serang"
           },
           {
-            "value": 103,
+            "value": 180,
             "name": "Kota Cilegon"
           }
         ]
