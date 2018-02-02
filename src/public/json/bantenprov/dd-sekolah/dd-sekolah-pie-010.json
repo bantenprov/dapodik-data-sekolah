@@ -57,9 +57,8 @@
       "yyyy": "2017 - 2018",
       "semester": "Genap",
       "tingkat": "Total",
-      "kel": "Laki - laki",
-      "group": "Jumlah",
-      "index": "banten-2017-2018-genap-total-laki-laki-jumlah"
+      "group": "Negeri",
+      "index": "banten-2017-2018-genap-total-negeri"
     },
     "series": [
       {
@@ -108,9 +107,8 @@
       "yyyy": "2017 - 2018",
       "semester": "Genap",
       "tingkat": "Total",
-      "kel": "Perempuan",
-      "group": "Jumlah",
-      "index": "banten-2017-2018-genap-total-perempuan-jumlah"
+      "group": "Swasta",
+      "index": "banten-2017-2018-genap-total-swasta"
     },
     "series": [
       {

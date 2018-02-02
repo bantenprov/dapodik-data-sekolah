@@ -33,8 +33,8 @@
       "yyyy": "2017 - 2018",
       "semester": "Genap",
       "tingkat": "SD",
-      "group": "Laki - laki",
-      "index": "banten-2017-2018-genap-sd-laki-laki"
+      "group": "Negeri",
+      "index": "banten-2017-2018-genap-sd-negeri"
     },
     "series": [
       {
@@ -59,8 +59,8 @@
       "yyyy": "2017 - 2018",
       "semester": "Genap",
       "tingkat": "SD",
-      "group": "Perempuan",
-      "index": "banten-2017-2018-genap-total-perempuan"
+      "group": "Swasta",
+      "index": "banten-2017-2018-genap-total-swasta"
     },
     "series": [
       {
@@ -112,7 +112,7 @@
       "semester": "Genap",
       "tingkat": "SMP",
       "group": "Laki laki",
-      "index": "banten-2017-2018-genap-smp-laki-laki"
+      "index": "banten-2017-2018-genap-smp-negeri"
     },
     "series": [
       {
@@ -137,8 +137,8 @@
       "yyyy": "2017 - 2018",
       "semester": "Genap",
       "tingkat": "SMP",
-      "group": "Perempuan",
-      "index": "banten-2017-2018-genap-sma-perempuan"
+      "group": "Swasta",
+      "index": "banten-2017-2018-genap-sma-swasta"
     },
     "series": [
       {
@@ -189,8 +189,8 @@
       "yyyy": "2017 - 2018",
       "semester": "Genap",
       "tingkat": "SMA",
-      "group": "Laki - laki",
-      "index": "banten-2017-2018-genap-sma-laki-laki"
+      "group": "Negeri",
+      "index": "banten-2017-2018-genap-sma-negeri"
     },
     "series": [
       {
@@ -215,8 +215,8 @@
       "yyyy": "2017 - 2018",
       "semester": "Genap",
       "tingkat": "SMA",
-      "group": "Perempuan",
-      "index": "banten-2017-2018-genap-sma-perempuan"
+      "group": "Swasta",
+      "index": "banten-2017-2018-genap-sma-swasta"
     },
     "series": [
       {
