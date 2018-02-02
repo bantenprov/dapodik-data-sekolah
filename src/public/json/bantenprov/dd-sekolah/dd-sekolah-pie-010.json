@@ -48,5 +48,107 @@
         ]
       }
     ]
+  },
+  {
+    "xAxis": {
+      "type": "data-sekolah",
+      "region": "Provinsi",
+      "name": "Banten",
+      "yyyy": "2017 - 2018",
+      "semester": "Genap",
+      "tingkat": "Total",
+      "kel": "Laki - laki",
+      "group": "Jumlah",
+      "index": "banten-2017-2018-genap-total-laki-laki-jumlah"
+    },
+    "series": [
+      {
+        "data": [
+          {
+            "value": 877,
+            "name": "Kab. Tangerang"
+          },
+          {
+            "value": 995,
+            "name": "Kab. Pandeglang"
+          },
+          {
+            "value": 997,
+            "name": "Kab. Lebak"
+          },
+          {
+            "value": 832,
+            "name": "Kab. Serang"
+          },
+          {
+            "value": 394,
+            "name": "Kota Tangerang"
+          },
+          {
+            "value": 198,
+            "name": "Kota Tangerang Selatan"
+          },
+          {
+            "value": 271,
+            "name": "Kota Serang"
+          },
+          {
+            "value": 171,
+            "name": "Kota Cilegon"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "xAxis": {
+      "type": "data-sekolah",
+      "region": "Provinsi",
+      "name": "Banten",
+      "yyyy": "2017 - 2018",
+      "semester": "Genap",
+      "tingkat": "Total",
+      "kel": "Perempuan",
+      "group": "Jumlah",
+      "index": "banten-2017-2018-genap-total-perempuan-jumlah"
+    },
+    "series": [
+      {
+        "data": [
+          {
+            "value": 985,
+            "name": "Kab. Tangerang"
+          },
+          {
+            "value": 860,
+            "name": "Kab. Pandeglang"
+          },
+          {
+            "value": 789,
+            "name": "Kab. Lebak"
+          },
+          {
+            "value": 730,
+            "name": "Kab. Serang"
+          },
+          {
+            "value": 476,
+            "name": "Kota Tangerang"
+          },
+          {
+            "value": 317,
+            "name": "Kota tangerang Selatan"
+          },
+          {
+            "value": 252,
+            "name": "Kota Serang"
+          },
+          {
+            "value": 180,
+            "name": "Kota Cilegon"
+          }
+        ]
+      }
+    ]
   }
 ]
