@@ -1,51 +1,140 @@
 <template>
   <div style="width: 100%; height: 400px;">
-    <IEcharts :option="bar" :loading="loading"></IEcharts>
+    <IEcharts :option="bar" :loading="loading" :resizable="true"></IEcharts>
   </div>
 </template>
 
 <script>
-import IEcharts from 'vue-echarts-v3/src/full.js';
-
 export default {
-  components: {
-    IEcharts
-  },
   data () {
     return {
       loading: false,
       bar: {
         title: {
-          text: 'ECharts bar + Ajax',
-          x: 'center'
+          show: true,
+          text: '',
+          x: 'center',
+          textStyle: {
+            fontSize: 16,
+            fontWeight: 'normal',
+            fontStyle: 'normal',
+            color: '#fff'
+          }
         },
         tooltip: {
           show: true
         },
+        toolbox: {
+          show : true,
+          orient : 'horizontal',
+          bottom: 0,
+          x: 'center',
+          feature : {
+            dataView: {
+              show: true,
+              lang: ['Data view', 'Cancel', ''],
+              readOnly: true,
+              backgroundColor: 'rgba(0,0,0,.65)',
+              textareaColor: 'rgba(0,0,0,.5)',
+              textareaBorderColor: 'rgba(0,0,0,.5)',
+              textColor: '#fff',
+              buttonColor: '#ddd',
+              buttonTextColor: '#333'
+            },
+            saveAsImage: {
+              show: true,
+              backgroundColor: 'transparent',
+              excludeComponents: ['toolbox', 'visualMap']
+            }
+          },
+          iconStyle: {
+            borderWidth: 1,
+            borderType: 'solid',
+            borderColor: '#fff'
+          }
+        },
         xAxis: {
           show: true,
-          data: []
+          data: [],
+          axisLabel: {
+            show: true,
+            fontSize: 8,
+            fontWeight: 'normal',
+            fontStyle: 'normal',
+            color: '#fff'
+          },
+          axisLine: {
+            show: true,
+            lineStyle: {
+              width: 1,
+              type: 'solid',
+              color: '#fff'
+            }
+          },
+          axisTick: {
+            show: true
+          },
+          splitArea: {
+            show: false
+          },
+          splitLine: {
+            show: true,
+            lineStyle: {
+              width: 1,
+              type: 'solid',
+              color: '#eee'
+            }
+          }
         },
-        yAxis: {},
+        yAxis: {
+          show: true,
+          axisLabel: {
+            show: true,
+            fontSize: 8,
+            fontWeight: 'normal',
+            fontStyle: 'normal',
+            color: '#fff'
+          },
+          axisLine: {
+            show: true,
+            lineStyle: {
+              width: 1,
+              type: 'solid',
+              color: '#fff'
+            }
+          },
+          axisTick: {
+            show: true
+          },
+          splitArea: {
+            show: true
+          },
+          splitLine: {
+            show: false,
+            lineStyle: {
+              width: 1,
+              type: 'solid',
+              color: '#eee'
+            }
+          }
+        },
         series: [{
           type: 'bar',
-          data: [
-          ],
-          barWidth: 20,
-          barGap: '-100%'
+          data: [],
+          barWidth: 30,
+          barGap: '30%',
+          cursor: 'default',
+          itemStyle: {
+            color: '#3F51B5'
+          }
         }],
-        color: {
-          type: 'linear',
-          x: 0,
-          y: 0,
-          x2: 0,
-          y2: 1,
-          colorStops: [{
-              offset: 0, color: '#CDDC39' // color at 0% position
-          }, {
-              offset: 1, color: '#8BC34A' // color at 100% position
-          }],
-          globalCoord: true // false by default
+        label: {
+          show: true,
+          position: 'top',
+          fontSize: 8,
+          fontWeight: 'normal',
+          fontStyle: 'normal',
+          color: '#fff'
         }
       }
     }
@@ -58,22 +147,22 @@ export default {
       var res = response.data;
 
       /**
-      * response :
-      * console.log(res)
-      *
-      * xAxis
-      * console.log(res[0].xAxis.data)
-      * console.log(Object.values(res[0].xAxis.data))
-      *
-      * series data
-      * console.log(res[0].series[0].data)
-      *
-      * region
-      * console.log(res[0].xAxis.region)
-      *
-      * length
-      * console.log(res.length);
-      */
+       * response :
+       * console.log(res)
+       *
+       * xAxis
+       * console.log(res[0].xAxis.data)
+       * console.log(Object.values(res[0].xAxis.data))
+       *
+       * series data
+       * console.log(res[0].series[0].data)
+       *
+       * region
+       * console.log(res[0].xAxis.region)
+       *
+       * length
+       * console.log(res.length);
+       */
 
       this.bar.xAxis.data = Object.values(res[0].xAxis.data);
       this.bar.series[0].data = res[0].series[0].data;

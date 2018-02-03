@@ -1,81 +1,105 @@
 <template>
   <div style="width: 100%; height: 200px;">
-    <IEcharts :option="pie"></IEcharts>
+    <IEcharts :option="pie" :resizable="true"></IEcharts>
   </div>
 </template>
 
 <script>
-import IEcharts from 'vue-echarts-v3/src/full.js';
-
 export default {
-  components: {
-    IEcharts
-  },
   data () {
     return {
       pie: {
-        backgroundColor: '#28A745',
         title: {
-          text: 'ECharts pie',
-          left: 'center',
-          top: 0,
+          show: true,
+          text: '',
+          x: 'center',
           textStyle: {
-            color: '#000',
-            fontSize: 11
+            fontSize: 16,
+            fontWeight: 'normal',
+            fontStyle: 'normal',
+            color: '#fff'
           }
         },
         tooltip: {
-          show: true,
-          trigger: 'item',
-          formatter: "{a} <br/>{b} : {c} ({d}%)"
+          show: true
+        },
+        toolbox: {
+          show : true,
+          orient : 'horizontal',
+          bottom: 0,
+          x: 'center',
+          feature : {
+            dataView: {
+              show: true,
+              lang: ['Data view', 'Cancel', ''],
+              readOnly: true,
+              backgroundColor: 'rgba(0,0,0,.65)',
+              textareaColor: 'rgba(0,0,0,.5)',
+              textareaBorderColor: 'rgba(0,0,0,.5)',
+              textColor: '#fff',
+              buttonColor: '#ddd',
+              buttonTextColor: '#333'
+            },
+            saveAsImage: {
+              show: true,
+              backgroundColor: 'transparent',
+              excludeComponents: ['toolbox', 'visualMap']
+            }
+          },
+          iconStyle: {
+            borderWidth: 1,
+            borderType: 'solid',
+            borderColor: '#fff'
+          }
         },
         visualMap: {
-          show: false,
+          show: true,
+          type: 'continuous',
+          orient: 'vertical',
+          right: 0,
+          y: 'center',
           min: 100,
           max: 2000,
+          text: ['High', 'Low'],
+          calculable : false,
           inRange: {
-            colorLightness: [0, 1]
+            color: ['#F0F4C3', '#DCE775', '#CDDC39'],
+          },
+          textStyle: {
+            color: '#fff'
           }
         },
-        series : [
-          {
-            type:'pie',
-            radius : '55%',
-            center: ['50%', '50%'],
-            data:[].sort(function (a, b) { return a.value - b.value; }),
-            roseType: 'radius',
-            label: {
-              normal: {
-                textStyle: {
-                  color: '#444'
-                }
-              }
-            },
-            labelLine: {
-              normal: {
-                lineStyle: {
-                  color: '#444'
-                },
-                smooth: 0.2,
-                length: 10,
-                length2: 5
-              }
-            },
-            itemStyle: {
-              normal: {
-                color: '#2196f3',
-                shadowBlur: 200,
-                shadowColor: 'rgba(255, 205, 210, 0.25)'
-              }
-            },
-
-            animationType: 'scale',
-            animationEasing: 'elasticOut',
-            animationDelay: function (idx) {
-              return Math.random() * 200;
+        series: [{
+          type:'pie',
+          data: [].sort(function (a, b) { return a.value - b.value; }),
+          radius: '55%',
+          roseType: 'radius',
+          cursor: 'default',
+          itemStyle: {
+            color: '#CDDC39'
+          },
+          label: {
+            show: true,
+            fontSize: 8,
+            fontWeight: 'normal',
+            fontStyle: 'normal',
+            color: '#fff'
+          },
+          labelLine: {
+            show: true,
+            length: 10,
+            lineStyle: {
+              width: 1,
+              type: 'solid',
+              color: '#fff'
             }
+          },
+          animationType: 'scale',
+          animationEasing: 'elasticOut',
+          animationDelay: function (idx) {
+            return Math.random() * 200;
           }
-        ]
+        }]
       }
     }
   },
