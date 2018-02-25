@@ -8,7 +8,7 @@
       "semester": "Genap",
       "tingkat": "Total",
       "group": "Jumlah",
-      "index": "banten-2017-2018-genap-total-jumlah"
+      "title": "Total Sekolah 2017-2018"
     },
     "series": [
       {
@@ -58,7 +58,7 @@
       "semester": "Genap",
       "tingkat": "Total",
       "group": "Negeri",
-      "index": "banten-2017-2018-genap-total-negeri"
+      "title": "Total Sekolah Negeri 2017-2018"
     },
     "series": [
       {
@@ -108,41 +108,41 @@
       "semester": "Genap",
       "tingkat": "Total",
       "group": "Swasta",
-      "index": "banten-2017-2018-genap-total-swasta"
+      "title": "Total Sekolah Swasta 2017-2018"
     },
     "series": [
       {
         "data": [
           {
-            "value": 985,
+            "value": 848,
             "name": "Kab. Tangerang"
           },
           {
-            "value": 860,
+            "value": 156,
             "name": "Kab. Pandeglang"
           },
           {
-            "value": 789,
+            "value": 111,
             "name": "Kab. Lebak"
           },
           {
-            "value": 730,
+            "value": 264,
             "name": "Kab. Serang"
           },
           {
-            "value": 476,
+            "value": 511,
             "name": "Kota Tangerang"
           },
           {
-            "value": 317,
+            "value": 491,
             "name": "Kota tangerang Selatan"
           },
           {
-            "value": 252,
+            "value": 143,
             "name": "Kota Serang"
           },
           {
-            "value": 180,
+            "value": 103,
             "name": "Kota Cilegon"
           }
         ]

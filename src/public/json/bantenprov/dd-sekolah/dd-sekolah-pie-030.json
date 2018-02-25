@@ -8,7 +8,7 @@
       "semester": "Genap",
       "tingkat": "Total",
       "group": "Jumlah",
-      "index": "banten-2017-2018-genap-total-jumlah"
+      "title": "Total Sekolah Provinsi Banten 2017-2018 Genap"
     },
     "series": [
       {
@@ -38,7 +38,7 @@
       "semester": "Genap",
       "tingkat": "SD",
       "group": "Jumlah",
-      "index": "banten-2017-2018-genap-sd-jumlah"
+      "title": "Jumlah SD Provinsi Banten 2017-2018 Genap"
     },
     "series": [
       {
@@ -68,7 +68,7 @@
       "semester": "Genap",
       "tingkat": "SMP",
       "group": "Jumlah",
-      "index": "banten-2017-2018-genap-smp-jumlah"
+      "title": "Jumlah SMP Provinsi Banten 2017-2018 Genap"
     },
     "series": [
       {
@@ -96,9 +96,9 @@
       "name": "Banten",
       "yyyy": "2017 - 2018",
       "semester": "Genap",
-      "tingkat": "SMP",
+      "tingkat": "SMA",
       "group": "Jumlah",
-      "index": "banten-2017-2018-genap-smp-jumlah"
+      "title": "Jumlah SMA Provinsi Banten 2017-2018 Genap"
     },
     "series": [
       {
@@ -128,7 +128,7 @@
       "semester": "Genap",
       "tingkat": "SMK",
       "group": "Jumlah",
-      "index": "banten-2017-2018-genap-smk-jumlah"
+      "title": "Jumlah SMK Provinsi Banten 2017-2018 Genap"
     },
     "series": [
       {
@@ -143,6 +143,36 @@
           },
           {
             "value": 617,
+            "name": "Swasta"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "xAxis": {
+      "type": "data-sekolah",
+      "region": "Provinsi",
+      "name": "Banten",
+      "yyyy": "2017 - 2018",
+      "semester": "Genap",
+      "tingkat": "SLB",
+      "group": "Jumlah",
+      "title": "Jumlah SLB Provinsi Banten 2017-2018 Genap"
+    },
+    "series": [
+      {
+        "data": [
+          {
+            "value": 93,
+            "name": "Jumlah"
+          },
+          {
+            "value": 7,
+            "name": "Negeri"
+          },
+          {
+            "value": 84,
             "name": "Swasta"
           }
         ]
