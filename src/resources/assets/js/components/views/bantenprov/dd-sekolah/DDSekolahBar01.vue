@@ -166,7 +166,7 @@ export default {
 
       this.bar.xAxis.data = Object.values(res[0].xAxis.data);
       this.bar.series[0].data = res[0].series[0].data;
-      this.bar.title.text = res[0].xAxis.region + ' ' + res[0].xAxis.name + ' ' + res[0].xAxis.yyyy;
+      this.bar.title.text = res[0].xAxis.title;
 
       // interval
       let i = 0;
@@ -175,7 +175,7 @@ export default {
 
         this.bar.xAxis.data = Object.values(res[i].xAxis.data);
         this.bar.series[0].data = res[i].series[0].data;
-        this.bar.title.text = res[i].xAxis.region + ' ' + res[i].xAxis.name + ' ' + res[i].xAxis.yyyy;
+        this.bar.title.text = res[i].xAxis.title;
 
         i++;
 

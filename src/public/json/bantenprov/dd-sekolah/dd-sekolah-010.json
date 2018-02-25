@@ -5,10 +5,10 @@
       "region": "Provinsi",
       "name": "Banten",
       "yyyy": "2017 - 2018",
-      "semester": "Genap",
       "tingkat": "SD",
+      "semester": "Genap",
       "group": "Jumlah",
-      "index": "banten-2017-2018-genap-sd-jumlah",
+      "title": "Jumlah SD Provinsi Banten 2017-2018 Genap",
       "data": [
         "Kab. Tangerang",
         "Kab. Pandeglang",
@@ -43,8 +43,8 @@
       "yyyy": "2017 - 2018",
       "semester": "Genap",
       "tingkat": "SD",
-      "group": "Laki-laki",
-      "index": "banten-2017-2018-genap-sd-laki-laki",
+      "group": "Negeri",
+      "title": "Jumlah SD Negeri Banten 2017-2018 Genap",
       "data": [
         "Kab. Tangerang",
         "Kab. Pandeglang",
@@ -79,8 +79,8 @@
       "yyyy": "2017 - 2018",
       "semester": "Genap",
       "tingkat": "SD",
-      "group": "Perempuan",
-      "index": "banten-2017-2018-genap-sd-perempuan",
+      "group": "Swasta",
+      "title": "Jumlah SD Swasta Banten 2017-2018 Genap",
       "data": [
         "Kab. Tangerang",
         "Kab. Pandeglang",
@@ -114,9 +114,9 @@
       "name": "Banten",
       "yyyy": "2017 - 2018",
       "semester": "Genap",
-      "tingkat": "SMP",
-      "group": "Jumlah",
-      "index": "banten-2017-2018-genap-smp-jumlah",
+      "tingkat": "Sekolah",
+      "group": "Total",
+      "title": "Total Sekolah 2017-2018 Genap",
       "data": [
         "Kab. Tangerang",
         "Kab. Pandeglang",
@@ -150,9 +150,9 @@
       "name": "Banten",
       "yyyy": "2017 - 2018",
       "semester": "Genap",
-      "tingkat": "SD",
-      "group": "Laki-laki",
-      "index": "banten-2017-2018-genap-sd-laki-laki",
+      "tingkat": "Total",
+      "group": "Negeri",
+      "title": "Total Sekolah Negeri Banten 2017-2018 Genap",
       "data": [
         "Kab. Tangerang",
         "Kab. Pandeglang",
@@ -186,9 +186,9 @@
       "name": "Banten",
       "yyyy": "2017 - 2018",
       "semester": "Genap",
-      "tingkat": "SD",
-      "group": "Perempuan",
-      "index": "banten-2017-2018-genap-sd-perempuan",
+      "tingkat": "Swasta",
+      "group": "Sekolah",
+      "title": "Total Sekolah Swasta Banten 2017-2018 Genap",
       "data": [
         "Kab. Tangerang",
         "Kab. Pandeglang",
@@ -224,7 +224,7 @@
       "semester": "Genap",
       "tingkat": "SMP",
       "group": "jumlah",
-      "index": "banten-2017-2018-genap-smp-jumlah",
+      "title": "Jumlah SMP Banten 2017-2018 Genap",
       "data": [
         "Kab. Tangerang",
         "Kab. Pandeglang",
@@ -259,8 +259,8 @@
       "yyyy": "2017 - 2018",
       "semester": "Genap",
       "tingkat": "SMP",
-      "group": "Laki-laki",
-      "index": "banten-2017-2018-genap-smp-laki-laki",
+      "group": "Negeri",
+      "title": "Jumlah SMP Negeri Banten 2017-2018 Genap",
       "data": [
         "Kab. Tangerang",
         "Kab. Pandeglang",
@@ -295,8 +295,8 @@
       "yyyy": "2017 - 2018",
       "semester": "Genap",
       "tingkat": "SMP",
-      "group": "Perempuan",
-      "index": "banten-2017-2018-genap-smp-perempuan",
+      "group": "Swasta",
+      "title": "Jumlah SMP Swasta Banten 2017-2018 Genap",
       "data": [
         "Kab. Tangerang",
         "Kab. Pandeglang",
@@ -332,7 +332,7 @@
       "semester": "Genap",
       "tingkat": "SMA",
       "group": "jumlah",
-      "index": "banten-2017-2018-genap-sma-jumlah",
+      "title": "Jumlah SMA Banten 2017-2018 Genap",
       "data": [
         "Kab. Tangerang",
         "Kab. Pandeglang",
@@ -367,8 +367,8 @@
       "yyyy": "2017 - 2018",
       "semester": "Genap",
       "tingkat": "SMA",
-      "group": "Laki - laki",
-      "index": "banten-2017-2018-genap-sma-laki-laki",
+      "group": "Negeri",
+      "title": "Jumlah SMA Negeri Banten 2017-2018 Genap",
       "data": [
         "Kab. Tangerang",
         "Kab. Pandeglang",
@@ -403,9 +403,9 @@
       "yyyy": "2017 - 2018",
       "semester": "Genap",
       "tingkat": "SMA",
-      "group": "Perempuan",
-      "index": "banten-2017-2018-genap-sma-perempuan",
-      "data": [
+      "group": "Swasta",
+      "title": "Jumlah SMA Swasta Banten 2017-2018 Genap",
+      "data": [ 
         "Kab. Tangerang",
         "Kab. Pandeglang",
         "Kab. Lebak",
@@ -440,7 +440,7 @@
       "semester": "Genap",
       "tingkat": "SMK",
       "group": "jumlah",
-      "index": "banten-2017-2018-genap-smk-jumlah",
+      "title": "Jumlah SMK Banten 2017-2018 Genap",
       "data": [
         "Kab. Tangerang",
         "Kab. Pandeglang",
@@ -475,8 +475,44 @@
       "yyyy": "2017 - 2018",
       "semester": "Genap",
       "tingkat": "SMK",
-      "group": "Perempuan",
-      "index": "banten-2017-2018-genap-smk-perempuan",
+      "group": "Negeri",
+      "title": "Jumlah SMK Negeri Banten 2017-2018 Genap",
+      "data": [
+        "Kab. Tangerang",
+        "Kab. Pandeglang",
+        "Kab. Lebak",
+        "Kab. Serang",
+        "Kota Tangerang",
+        "Kota tangerang Selatan",
+        "Kota Serang",
+        "Kota Cilegon"
+      ]
+    },
+    "series": [
+      {
+        "data": [
+          12,
+          12,
+          14,
+          9,
+          9,
+          7,
+          8,
+          4
+        ]
+      }
+    ]
+  },
+  {
+    "xAxis": {
+      "type": "data-sekolah",
+      "region": "Provinsi",
+      "name": "Banten",
+      "yyyy": "2017 - 2018",
+      "semester": "Genap",
+      "tingkat": "SMK",
+      "group": "Swasta",
+      "title": "Jumlah SMK Swasta Banten 2017-2018 Genap",
       "data": [
         "Kab. Tangerang",
         "Kab. Pandeglang",
@@ -512,7 +548,7 @@
       "semester": "Genap",
       "tingkat": "SLB",
       "group": "Jumlah",
-      "index": "banten-2017-2018-genap-slb-jumlah",
+      "title": "Jumlah SLB Banten 2017-2018 Genap",
       "data": [
         "Kab. Tangerang",
         "Kab. Pandeglang",
@@ -547,8 +583,8 @@
       "yyyy": "2017 - 2018",
       "semester": "Genap",
       "tingkat": "SLB",
-      "group": "Laki - laki",
-      "index": "banten-2017-2018-genap-slb-laki-laki",
+      "group": "Negeri",
+      "title": "Jumlah SLB Negeri Banten 2017-2018 Genap",
       "data": [
         "Kab. Tangerang",
         "Kab. Pandeglang",
@@ -583,8 +619,8 @@
       "yyyy": "2017 - 2018",
       "semester": "Genap",
       "tingkat": "SLB",
-      "group": "Perempuan",
-      "index": "banten-2017-2018-genap-slb-perempuan",
+      "group": "Swasta",
+      "title": "Jumlah SLB Swasta Banten 2017-2018 Genap",
       "data": [
         "Kab. Tangerang",
         "Kab. Pandeglang",

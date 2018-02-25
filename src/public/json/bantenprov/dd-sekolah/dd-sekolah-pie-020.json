@@ -8,7 +8,7 @@
       "semester": "Genap",
       "tingkat": "SD",
       "group": "Jumlah",
-      "index": "banten-2017-2018-genap-sd-jumlah"
+      "title": "Jumlah SD Provinsi Banten 2017-2018 Genap"
     },
     "series": [
       {
@@ -34,7 +34,7 @@
       "semester": "Genap",
       "tingkat": "SD",
       "group": "Negeri",
-      "index": "banten-2017-2018-genap-sd-negeri"
+      "title": "Jumlah SD Negeri Banten 2017-2018 Genap"
     },
     "series": [
       {
@@ -60,7 +60,7 @@
       "semester": "Genap",
       "tingkat": "SD",
       "group": "Swasta",
-      "index": "banten-2017-2018-genap-total-swasta"
+      "title": "Jumlah SD Swasta Banten 2017-2018 Genap"
     },
     "series": [
       {
@@ -86,7 +86,7 @@
       "semester": "Genap",
       "tingkat": "SMP",
       "group": "Jumlah",
-      "index": "banten-2017-2018-genap-smp-jumlah"
+      "title": "Jumlah SMP Provinsi Banten 2017-2018 Genap"
     },
     "series": [
       {
@@ -111,8 +111,8 @@
       "yyyy": "2017 - 2018",
       "semester": "Genap",
       "tingkat": "SMP",
-      "group": "Laki laki",
-      "index": "banten-2017-2018-genap-smp-negeri"
+      "group": "Negeri",
+      "title": "Jumlah SMP Negeri Banten 2017-2018 Genap"
     },
     "series": [
       {
@@ -138,7 +138,7 @@
       "semester": "Genap",
       "tingkat": "SMP",
       "group": "Swasta",
-      "index": "banten-2017-2018-genap-sma-swasta"
+      "title": "Jumlah SMP Swasta Banten 2017-2018 Genap"
     },
     "series": [
       {
@@ -164,7 +164,7 @@
       "semester": "Genap",
       "tingkat": "SMA",
       "group": "Jumlah",
-      "index": "banten-2017-2018-genap-sma-jumlah"
+      "title": "Jumlah SMA Provinsi Banten 2017-2018 Genap"
     },
     "series": [
       {
@@ -190,7 +190,7 @@
       "semester": "Genap",
       "tingkat": "SMA",
       "group": "Negeri",
-      "index": "banten-2017-2018-genap-sma-negeri"
+      "title": "Jumlah SMA Negeri Banten 2017-2018 Genap"
     },
     "series": [
       {
@@ -216,7 +216,7 @@
       "semester": "Genap",
       "tingkat": "SMA",
       "group": "Swasta",
-      "index": "banten-2017-2018-genap-sma-swasta"
+      "title": "Jumlah SMA Swasta Banten 2017-2018 Genap"
     },
     "series": [
       {
@@ -229,6 +229,162 @@
           {"value":73,"name": "Kota tangerang Selatan"},
           {"value":23,"name": "Kota Serang"},
           {"value":18,"name": "Kota Cilegon"}
+        ]
+      }
+    ]
+  },
+  {
+    "xAxis": {
+      "type": "data-sekolah",
+      "region": "Provinsi",
+      "name": "Banten",
+      "yyyy": "2017 - 2018",
+      "semester": "Genap",
+      "tingkat": "SMK",
+      "group": "Jumlah",
+      "title": "Jumlah SMK Provinsi Banten 2017-2018 Genap"
+    },
+    "series": [
+      {
+        "data": [
+          {"value":184,"name": "Kab. Tangerang"},
+          {"value":87,"name": "Kab. Pandeglang"},
+          {"value":51,"name": "Kab. Lebak"},
+          {"value":87,"name": "Kab. Serang"},
+          {"value":131,"name": "Kota Tangerang"},
+          {"value":81,"name": "Kota tangerang Selatan"},
+          {"value":46,"name": "Kota Serang"},
+          {"value":25,"name": "Kota Cilegon"}
+        ]
+      }
+    ]
+  },
+  {
+    "xAxis": {
+      "type": "data-sekolah",
+      "region": "Provinsi",
+      "name": "Banten",
+      "yyyy": "2017 - 2018",
+      "semester": "Genap",
+      "tingkat": "SMK",
+      "group": "Negeri",
+      "title": "Jumlah SMK Negeri Banten 2017-2018 Genap"
+    },
+    "series": [
+      {
+        "data": [
+          {"value":12,"name": "Kab. Tangerang"},
+          {"value":12,"name": "Kab. Pandeglang"},
+          {"value":14,"name": "Kab. Lebak"},
+          {"value":9,"name": "Kab. Serang"},
+          {"value":9,"name": "Kota Tangerang"},
+          {"value":7,"name": "Kota tangerang Selatan"},
+          {"value":8,"name": "Kota Serang"},
+          {"value":4,"name": "Kota Cilegon"}
+        ]
+      }
+    ]
+  },
+  {
+    "xAxis": {
+      "type": "data-sekolah",
+      "region": "Provinsi",
+      "name": "Banten",
+      "yyyy": "2017 - 2018",
+      "semester": "Genap",
+      "tingkat": "SMK",
+      "group": "Swasta",
+      "title": "Jumlah SMK Swasta Banten 2017-2018 Genap"
+    },
+    "series": [
+      {
+        "data": [
+          {"value":172,"name": "Kab. Tangerang"},
+          {"value":75,"name": "Kab. Pandeglang"},
+          {"value":37,"name": "Kab. Lebak"},
+          {"value":78,"name": "Kab. Serang"},
+          {"value":122,"name": "Kota Tangerang"},
+          {"value":74,"name": "Kota tangerang Selatan"},
+          {"value":38,"name": "Kota Serang"},
+          {"value":21,"name": "Kota Cilegon"}
+        ]
+      }
+    ]
+  },
+  {
+    "xAxis": {
+      "type": "data-sekolah",
+      "region": "Provinsi",
+      "name": "Banten",
+      "yyyy": "2017 - 2018",
+      "semester": "Genap",
+      "tingkat": "SLB",
+      "group": "Jumlah",
+      "title": "Jumlah SLB Provinsi Banten 2017-2018 Genap"
+    },
+    "series": [
+      {
+        "data": [
+          {"value":16,"name": "Kab. Tangerang"},
+          {"value":18,"name": "Kab. Pandeglang"},
+          {"value":13,"name": "Kab. Lebak"},
+          {"value":4,"name": "Kab. Serang"},
+          {"value":15,"name": "Kota Tangerang"},
+          {"value":16,"name": "Kota tangerang Selatan"},
+          {"value":7,"name": "Kota Serang"},
+          {"value":4,"name": "Kota Cilegon"}
+        ]
+      }
+    ]
+  },
+  {
+    "xAxis": {
+      "type": "data-sekolah",
+      "region": "Provinsi",
+      "name": "Banten",
+      "yyyy": "2017 - 2018",
+      "semester": "Genap",
+      "tingkat": "SLB",
+      "group": "Negeri",
+      "title": "Jumlah SLB Negeri Banten 2017-2018 Genap"
+    },
+    "series": [
+      {
+        "data": [
+          {"value":1,"name": "Kab. Tangerang"},
+          {"value":1,"name": "Kab. Pandeglang"},
+          {"value":3,"name": "Kab. Lebak"},
+          {"value":0,"name": "Kab. Serang"},
+          {"value":0,"name": "Kota Tangerang"},
+          {"value":0,"name": "Kota tangerang Selatan"},
+          {"value":2,"name": "Kota Serang"},
+          {"value":0,"name": "Kota Cilegon"}
+        ]
+      }
+    ]
+  },
+  {
+    "xAxis": {
+      "type": "data-sekolah",
+      "region": "Provinsi",
+      "name": "Banten",
+      "yyyy": "2017 - 2018",
+      "semester": "Genap",
+      "tingkat": "SLB",
+      "group": "Swasta",
+      "title": "Jumlah SLB Swasta Banten 2017-2018 Genap"
+    },
+    "series": [
+      {
+        "data": [
+          {"value":15,"name": "Kab. Tangerang"},
+          {"value":17,"name": "Kab. Pandeglang"},
+          {"value":10,"name": "Kab. Lebak"},
+          {"value":4,"name": "Kab. Serang"},
+          {"value":15,"name": "Kota Tangerang"},
+          {"value":16,"name": "Kota tangerang Selatan"},
+          {"value":5,"name": "Kota Serang"},
+          {"value":4,"name": "Kota Cilegon"}
         ]
       }
     ]

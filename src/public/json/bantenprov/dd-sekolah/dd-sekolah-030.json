@@ -4,6 +4,7 @@
       "category": "Total",
       "region": "Kabupaten",
       "name": "Tangerang",
+      "title":"Total Sekolah Kabupaten Tangerang",
       "data": [
         "Jumlah",
         "Negeri",
@@ -25,6 +26,7 @@
       "category": "Total",
       "region": "Kabupaten",
       "name": "Pandeglang",
+      "title":"Total Sekolah Kabupaten Pandeglang",
       "data": [
         "Jumlah",
         "Negeri",
@@ -46,6 +48,7 @@
       "category": "Total",
       "region": "Kabupaten",
       "name": "Lebak",
+      "title":"Total Sekolah Kabupaten Lebak",
       "data": [
         "Jumlah",
         "Negeri",
@@ -67,6 +70,7 @@
       "category": "Total",
       "region": "Kabupaten",
       "name": "Serang",
+      "title":"Total Sekolah Kabupaten Serang",
       "data": [
         "Jumlah",
         "Negeri",
@@ -88,6 +92,7 @@
       "category": "Total",
       "region": "Kota",
       "name": "Tangerang",
+      "title":"Total Sekolah Kota Tangerang",
       "data": [
         "Jumlah",
         "Negeri",
@@ -109,6 +114,7 @@
       "category": "Total",
       "region": "Kota",
       "name": "Tangerang Selatan",
+      "title":"Total Sekolah Kota Tangerang Selatan",
       "data": [
         "Jumlah",
         "Negeri",
@@ -130,6 +136,7 @@
       "category": "Total",
       "region": "Kota",
       "name": "Serang",
+      "title":"Total Sekolah Kota Serang",
       "data": [
         "Jumlah",
         "Negeri",
@@ -151,6 +158,7 @@
       "category": "Total",
       "region": "Kota",
       "name": "Cilegon",
+      "title":"Total Sekolah Kota Cilegon",
       "data": [
         "Jumlah",
         "Negeri",

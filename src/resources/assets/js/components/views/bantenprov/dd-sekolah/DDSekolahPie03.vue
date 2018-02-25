@@ -111,7 +111,7 @@ export default {
       var res = response.data;
 
       this.pie.series[0].data = res[0].series[0].data;
-      this.pie.title.text = res[0].xAxis.region + ' ' + res[0].xAxis.name;
+      this.pie.title.text = res[0].xAxis.title;
 
       // interval
       let i = 0;
@@ -119,7 +119,7 @@ export default {
       setInterval(() => {
 
         this.pie.series[0].data = res[i].series[0].data;
-        this.pie.title.text = res[i].xAxis.region + ' ' + res[i].xAxis.name;
+        this.pie.title.text = res[i].xAxis.title;
 
         i++;
 

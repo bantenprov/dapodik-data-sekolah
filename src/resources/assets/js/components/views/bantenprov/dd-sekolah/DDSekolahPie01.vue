@@ -119,7 +119,7 @@ export default {
       setInterval(() => {
 
         this.pie.series[0].data = res[i].series[0].data;
-        this.pie.title.text = res[i].xAxis.region + ' ' + res[i].xAxis.name + ' ' + res[0].xAxis.yyyy;
+        this.pie.title.text = res[i].xAxis.title;
 
         i++;
 
